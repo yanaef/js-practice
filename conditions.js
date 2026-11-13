@@ -1,10 +1,10 @@
 // // Задание №1
-// let number = 6;
-// if(number % 2) {
-//     console.log('Нечетное')
-// } else {
-//     console.log('Четное');
-// }
+let number = 6;
+if(number % 2) {
+    console.log('Нечетное')
+} else {
+    console.log('Четное');
+}
 
 // Задание №2
 let age = 59;
