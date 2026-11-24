@@ -22,3 +22,19 @@ let isBig2 = n => n > 10;
 
 console.log(numbers.find(isBig))
 console.log(numbers.find(isBig2))
+
+const users = [
+  {id: 1, name: "Вася"},
+  {id: 2, name: "Петя"},
+  {id: 3, name: "Маша"}
+];
+
+const petya = users.find(user => user.name === "Петя");
+console.log(petya);
+
+const masha = users.find(user => user.name === "Маша");
+console.log(masha)
+
+const user = users.find(u => u.id === 10);
+console.log(user.name);
+
