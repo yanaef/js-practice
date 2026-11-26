@@ -16,6 +16,13 @@ console.log(user);
 
 delete user.age;
 console.log(user);
+product.color = "чёрный";
 
-console.log(product.color.length)
+if (product.color) {
+    console.log(product.color.length);
+} else {
+    console.log("Цвет не задан");
+}
+
+
 
